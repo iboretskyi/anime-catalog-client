@@ -1,0 +1,48 @@
+.modal-background {
+  height: 235px;
+  z-index: 12;
+}
+
+.auth-option-container {
+  height: 365px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.auth-option-container p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.auth-option-container a,
+.auth-option-clickable {
+  display: inline-block;
+  color: #FF5733;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.auth-option-clickable:hover {
+  cursor: pointer;
+}
+
+.auth-option-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth-option-small-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.auth-option-small-text p {
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 18px;
+  color: rgb(121, 121, 121);
+}

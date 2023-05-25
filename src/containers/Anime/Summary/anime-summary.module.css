@@ -1,0 +1,103 @@
+.description-and-reaction-wrapper {
+  margin-top: 20px;
+  min-height: 1500px;
+  width: 100%;
+}
+
+.each-anime-pic {
+  position: sticky;
+  top: 73px;
+  margin-top: -160px;
+  margin-right: 10px;
+  width: 195px;
+  height: fit-content;
+  z-index: 10;
+}
+
+.each-anime-pic img {
+  max-width: 195px;
+  border-radius: 4px;
+}
+
+.each-anime-info {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  border: 1px solid rgb(234, 234, 234);
+  padding-bottom: 6px;
+}
+
+.each-anime-info span {
+  font-family: sans-serif;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.each-anime-info p {
+  margin-top: -8px;
+  background: rgb(247, 247, 247);
+  width: fit-content;
+  align-self: center;
+  padding: 0 10px;
+}
+
+.each-anime-info div {
+  margin: 5px 0;
+  font-size: 12px;
+  padding: 8px 5px;
+}
+
+.each-anime-info-status {
+  width: 80%;
+  height: fit-content;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.upper {
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.blue {
+  background: #2980b9;
+}
+
+.blue:hover {
+  background: #2472a4;
+}
+
+.purple {
+  background: #8e44ad;
+}
+
+.purple:hover {
+  background: #7f3d9b;
+}
+
+.anime-details-list {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.anime-details-list-items {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 5px 0;
+}
+
+.link-edit-status {
+  color: rgb(247, 82, 57);
+}
+
+.link-edit-status:hover {
+  cursor: pointer;
+}

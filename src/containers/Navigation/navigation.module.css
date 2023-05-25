@@ -1,0 +1,170 @@
+.nav-container {
+  position: sticky;
+  top: 0;
+  height: 42px;
+  width: 100%;
+  background: #392B5C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  transition: all 3s;
+  z-index: 13;
+}
+
+.nav-container:hover {
+  background: #392B5C;
+  transition: all 0.1s;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-right button {
+  font-size: 16px;
+}
+
+.nav-a {
+  margin: 0 10px;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(150, 150, 170);
+}
+
+.sidebar {
+  margin: 0 10px;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(150, 150, 170);
+}
+
+.nav-a:hover {
+  color: white;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+.profile-pic:hover {
+  cursor: pointer;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-btn {
+  height: 100%;
+  width: 100%;
+  color: rgb(150, 150, 170);
+  padding: 10px 0;
+}
+
+.drop-btn:hover,
+.drop-btn:focus {
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #f9f9f9;
+  box-shadow: 2px 2px 2px #ddd;
+  width: 160px;
+  height: fit-content;
+  border-radius: 4px;
+  z-index: 19;
+}
+
+.dropdown-content p {
+  height: fit-content;
+  padding: 8px 20px;
+  font-family: 'Asap', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  /* font-weight: bold; */
+}
+
+.dropdown-content p:hover {
+  cursor: pointer;
+}
+
+.for-profile {
+  position: absolute;
+  left: -400%;
+}
+
+.for-reaction {
+  position: absolute;
+  left: -400%;
+  max-width: 150px;
+}
+
+.for-reaction p {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  padding: 8px 10px;
+}
+
+.for-reaction p:hover {
+  color: #FF5733;
+  cursor: pointer;
+}
+
+.dropdown-content-show+.dropdown-content {
+  display: block;
+}
+
+.dropdown-content-items {
+  display: block;
+  border-radius: 4px;
+  width: 100%;
+  height: 30px;
+}
+
+.dropdown-content-items:hover {
+  background: #eee;
+}
+
+@media screen and (max-width: 655px) {
+  .nav-left .nav-a {
+    display: none;
+  }
+
+  .nav-left .sidebar {
+    display: inline-block;
+  }
+}
